@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Stock Operator</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <a href="index.html" class="logo"><img src="logo.jpg" alt="Logo"></a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="plans.html">Plans</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="terms.html">Terms</a></li>
+        <li><a href="refund.html">Refund Policy</a></li>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+      </ul>
+      <div class="nav-actions">
+        <label class="switch">
+          <input type="checkbox" id="theme-toggle">
+          <span class="slider round"></span>
+        </label>
+        <div class="hamburger"><span></span><span></span><span></span></div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="contact-section fade-in">
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="Your Email" required>
+            </div>
+          </div>
+          <div class="form-group full-width">
+            <label for="message">Message</label>
+            <textarea id="message" rows="6" placeholder="Write your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info">
+        <h2>Contact Info</h2>
+        <p> WhatsApp: +91 9136409018</p>
+        <p> Email:stockmarketoperator@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <footer><p>© 2025 Stock Operator. All rights reserved.</p></footer>
+</body>
+</html>
